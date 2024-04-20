@@ -1,0 +1,635 @@
+-------------------------------------------------------------------------------
+>Log Session: Friday, April 19, 2024, 1:25:32 PM Brasilia Standard Time
+>System Info: 
+  Product Version         = Pov Suite 1.0 21-b15c9b7692b2764be5a997d056e2283b72ae9131
+  Operating System        = Windows 11 version 10.0 running on amd64
+  Java; VM; Vendor        = 21.0.2; Java HotSpot(TM) 64-Bit Server VM 21.0.2+13-LTS-58; Oracle Corporation
+  Runtime                 = Java(TM) SE Runtime Environment 21.0.2+13-LTS-58
+  Java Home               = C:\Program Files\Java\jdk-21
+  System Locale; Encoding = pt_BR (povsuite); UTF-8
+  Home Directory          = C:\Users\mathe
+  Current Directory       = C:\Users\mathe\povsuite
+  User Directory          = C:\Users\mathe\povsuite\build\testuserdir
+  Cache Directory         = C:\Users\mathe\povsuite\build\testuserdir\var\cache
+  Installation            = C:\Users\mathe\povsuite\build\cluster
+                            C:\Program Files\NetBeans-21\netbeans\ide
+                            C:\Program Files\NetBeans-21\netbeans\platform
+                            C:\Program Files\NetBeans-21\netbeans\platform
+  Boot & Ext. Classpath   = 
+  Application Classpath   = C:\Program Files\NetBeans-21\netbeans\platform\lib\boot.jar;C:\Program Files\NetBeans-21\netbeans\platform\lib\org-openide-modules.jar;C:\Program Files\NetBeans-21\netbeans\platform\lib\org-openide-util-lookup.jar;C:\Program Files\NetBeans-21\netbeans\platform\lib\org-openide-util-ui.jar;C:\Program Files\NetBeans-21\netbeans\platform\lib\org-openide-util.jar
+  Startup Classpath       = C:\Program Files\NetBeans-21\netbeans\platform\core\asm-9.6.jar;C:\Program Files\NetBeans-21\netbeans\platform\core\asm-commons-9.6.jar;C:\Program Files\NetBeans-21\netbeans\platform\core\asm-tree-9.6.jar;C:\Program Files\NetBeans-21\netbeans\platform\core\core-base.jar;C:\Program Files\NetBeans-21\netbeans\platform\core\core.jar;C:\Program Files\NetBeans-21\netbeans\platform\core\org-netbeans-libs-asm.jar;C:\Program Files\NetBeans-21\netbeans\platform\core\org-openide-filesystems-compat8.jar;C:\Program Files\NetBeans-21\netbeans\platform\core\org-openide-filesystems.jar;C:\Users\mathe\povsuite\build\cluster\core\locale\core_povsuite.jar
+-------------------------------------------------------------------------------
+INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
+	org.openide.util.lookup [8.57 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.openide.util [9.31 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.openide.util.ui [9.32 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.openide.modules [7.71 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.api.annotations.common/1 [1.51 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.openide.filesystems [9.36 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.openide.awt [7.91 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.api.progress/1 [1.71 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.api.progress.nb [1.71 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.openide.dialogs [7.70 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.openide.nodes [7.68 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.openide.windows [6.100 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.libs.batik.read [1.18.0.1 1 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.openide.util.ui.svg [1.17 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.modules.editor.mimelookup/1 [1.63 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.openide.text [6.91 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.api.scripting [1.20 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.swing.tabcontrol [1.80 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.swing.outline [1.57 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.openide.explorer [6.85 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.openide.actions [6.62 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.modules.queries/1 [1.66 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.api.templates [1.31 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.openide.filesystems.nb [9.33 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.openide.loaders [7.93 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.api.intent [1.25 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.api.io [1.26 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.openide.io [1.72 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.openide.filesystems.compat8 [9.32 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.openide.execution [9.26 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.swing.plaf [1.65 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.spi.quicksearch [1.50 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.libs.asm [5.26 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.bootstrap/1 [2.102 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.core.startup.base [1.85.0.1 1 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.core.startup/1 [1.86.0.1 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.modules.settings/1 [1.72 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.modules.sendopts/2 [2.59 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.modules.sampler [1.37 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.modules.projectapi/1 [1.94 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.modules.projectuiapi.base/1 [1.109.0.9 9 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.modules.projectuiapi/1 [1.112.0.8 8 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.modules.project.indexingbridge [1.40 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.modules.keyring [1.47 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.core/2 [3.74 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.core.execution/1 [1.65 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.modules.masterfs/2 [2.78.0.2 2 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.modules.options.api/1 [1.68 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.core.ui/1 [1.68 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.modules.favorites/1 [1.69 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.modules.projectui [1.82.0.8.9 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.modules.projectapi.nb [1.27 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.modules.progress.ui [1.56 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.modules.print [7.49 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.modules.options.keymap [1.60 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.libs.jna/2 [2.18 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.modules.masterfs.windows [1.39 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.modules.masterfs.ui [2.26.0.2 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.modules.masterfs.nio2 [1.38 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.modules.keyring.fallback [1.31 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.modules.keyring.impl [1.47 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.modules.editor.mimelookup.impl/1 [1.55 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.libs.osgi [1.45 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.libs.jna.platform/2 [2.18 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.libs.felix [2.38 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.examples.api.povray/1 [1.0 240419]
+	org.apache.commons.lang3 [3.14.0 3.14.0]
+	org.netbeans.examples.modules.povproject [1.0 240419]
+	org.netbeans.core.multiview/1 [1.67 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.examples.modules.povfile [1.0 240419]
+	org.netbeans.core.windows/2 [2.108 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.core.output2/1 [1.65 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.core.network [1.35 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.core.netigso [1.54 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.core.nativeaccess/1 [1.54 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.core.multitabs/1 [1.35.0.1 1 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+	org.netbeans.core.io.ui/1 [1.53 21-b15c9b7692b2764be5a997d056e2283b72ae9131]
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.apache.felix.framework@7.0.3 started
+WARNING [org.openide.filesystems.Ordering]: Not all children in Services/MIMEResolver/ marked with the position attribute: [org-netbeans-examples-modules-povfile-PovrayDataObject-Extension.xml], but some are: [org-openide-loaders-DataLoaderPool$InstanceLoaderSystem-Extension.xml, org-netbeans-core-startup-layers-SystemFileSystem-Extension.xml]
+WARNING [null]: Last record repeated again.
+INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy resolver: Windows
+INFO [org.netbeans.core.network.proxy.windows.WindowsNetworkProxy]: Windows system proxy resolver: auto detect
+INFO [org.netbeans.core.network.proxy.windows.WindowsNetworkProxy]: Windows system proxy resolver: auto - PAC (http://wpad/wpad.dat)
+INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy reloading succeeded.
+java.lang.IllegalAccessException: class org.netbeans.TopSecurityManager cannot access class sun.awt.AppContext (in module java.desktop) because module java.desktop does not export sun.awt to unnamed module @6433a2
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:394)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:714)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:571)
+	at org.netbeans.TopSecurityManager.makeSwingUseSpecialClipboard(TopSecurityManager.java:714)
+	at org.netbeans.core.NbLifecycleManager.advancePolicy(NbLifecycleManager.java:71)
+	at org.netbeans.core.network.proxy.ProxyAutoConfig$1.run(ProxyAutoConfig.java:81)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1420)
+	at org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:45)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:287)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2035)
+WARNING [org.netbeans.core.execution.AccController]
+java.lang.reflect.InaccessibleObjectException: Unable to make field private java.security.ProtectionDomain[] java.security.AccessControlContext.context accessible: module java.base does not "opens java.security" to unnamed module @3b62957e
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:183)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:177)
+	at org.netbeans.core.execution.AccController.getContextField(AccController.java:50)
+	at org.netbeans.core.execution.AccController.getDomains(AccController.java:58)
+	at org.netbeans.core.execution.AccController.getIOPermissionCollection(AccController.java:78)
+	at org.netbeans.core.execution.AccController.getIOPermissionCollection(AccController.java:72)
+	at org.netbeans.core.execution.SecMan.checkTopLevelWindow(SecMan.java:105)
+	at org.netbeans.core.execution.SecMan.checkPermission(SecMan.java:97)
+	at org.netbeans.TopSecurityManager.checkTopLevelWindow(TopSecurityManager.java:208)
+	at org.netbeans.TopSecurityManager.checkPermission(TopSecurityManager.java:484)
+	at java.desktop/java.awt.Window.setWarningString(Window.java:1408)
+	at java.desktop/java.awt.Window.init(Window.java:508)
+	at java.desktop/java.awt.Window.<init>(Window.java:554)
+	at java.desktop/java.awt.Frame.<init>(Frame.java:428)
+	at java.desktop/java.awt.Frame.<init>(Frame.java:393)
+	at java.desktop/javax.swing.JFrame.<init>(JFrame.java:180)
+	at org.netbeans.core.windows.view.ViewHierarchy.getMainWindow(ViewHierarchy.java:115)
+	at org.netbeans.core.windows.view.DefaultView.getMainWindow(DefaultView.java:79)
+	at org.netbeans.core.windows.ViewRequestor.getMainWindow(ViewRequestor.java:81)
+	at org.netbeans.core.windows.Central.getMainWindow(Central.java:1819)
+	at org.netbeans.core.windows.WindowManagerImpl.getMainWindow(WindowManagerImpl.java:168)
+	at org.netbeans.core.TimableEventQueue$2.run(TimableEventQueue.java:114)
+	at org.netbeans.core.TimableEventQueue$2.run(TimableEventQueue.java:109)
+	at org.netbeans.modules.openide.util.NbMutexEventProvider$Event$1AWTWorker.lambda$run$0(NbMutexEventProvider.java:143)
+	at org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:45)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:287)
+	at org.netbeans.modules.openide.util.NbMutexEventProvider$Event$1AWTWorker.run(NbMutexEventProvider.java:141)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:308)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+[catch] at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+INFO [org.netbeans.ui.metrics.laf]: USG_LOOK_AND_FEEL
+INFO [org.netbeans.core.network.proxy.ProxyAutoConfig]: PAC script http://wpad/wpad.dat unavailable, proxy disabled
+INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy - mode: auto
+INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy - pac url: http://wpad/wpad.dat
+INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy TEST - http host: 
+INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy TEST - http port: 0
+Diagnostic information
+Input arguments:
+	-Dnetbeans.logger.console=true
+	-ea
+	-Djdk.home=C:\Program Files\Java\jdk-21
+	-Dnetbeans.home=C:\Program Files\NetBeans-21\netbeans\platform
+	-Dnetbeans.user=C:\Users\mathe\povsuite\build\testuserdir
+	-Dnetbeans.default_userdir_root=
+	-XX:+HeapDumpOnOutOfMemoryError
+	-XX:HeapDumpPath=C:\Users\mathe\povsuite\build\testuserdir\var\log\heapdump.hprof
+	-Dsun.awt.keepWorkingSetOnMinimize=true
+	-Djava.security.manager=allow
+	-Dnetbeans.dirs=C:\Users\mathe\povsuite\build\cluster;C:\Program Files\NetBeans-21\netbeans\ide;C:\Program Files\NetBeans-21\netbeans\platform
+	exit
+Compiler: HotSpot 64-Bit Tiered Compilers
+Heap memory usage: initial 512,0MB maximum 8132,0MB
+Non heap memory usage: initial 7,3MB maximum -1b
+Garbage collector: G1 Young Generation (Collections=7 Total time spent=0s)
+Garbage collector: G1 Concurrent GC (Collections=4 Total time spent=0s)
+Garbage collector: G1 Old Generation (Collections=0 Total time spent=0s)
+Classes: loaded=6997 total loaded=6998 unloaded 1
+INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 34.091.532.288
+INFO [null]: Total physical memory 34.091.532.288
+WARNING [org.netbeans.core.execution.AccController]
+java.lang.reflect.InaccessibleObjectException: Unable to make field private java.security.ProtectionDomain[] java.security.AccessControlContext.context accessible: module java.base does not "opens java.security" to unnamed module @3b62957e
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:183)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:177)
+	at org.netbeans.core.execution.AccController.getContextField(AccController.java:50)
+	at org.netbeans.core.execution.AccController.getDomains(AccController.java:58)
+	at org.netbeans.core.execution.AccController.getIOPermissionCollection(AccController.java:78)
+	at org.netbeans.core.execution.AccController.getIOPermissionCollection(AccController.java:72)
+	at org.netbeans.core.execution.SecMan.checkTopLevelWindow(SecMan.java:105)
+	at org.netbeans.core.execution.SecMan.checkPermission(SecMan.java:97)
+	at org.netbeans.TopSecurityManager.checkTopLevelWindow(TopSecurityManager.java:208)
+	at org.netbeans.TopSecurityManager.checkPermission(TopSecurityManager.java:484)
+	at java.desktop/java.awt.Window.setWarningString(Window.java:1408)
+	at java.desktop/java.awt.Window.init(Window.java:508)
+	at java.desktop/java.awt.Window.<init>(Window.java:554)
+	at java.desktop/java.awt.Frame.<init>(Frame.java:428)
+	at java.desktop/java.awt.Frame.<init>(Frame.java:393)
+	at java.desktop/javax.swing.SwingUtilities$SharedOwnerFrame.<init>(SwingUtilities.java:1925)
+	at java.desktop/javax.swing.SwingUtilities.getSharedOwnerFrame(SwingUtilities.java:2001)
+	at java.desktop/javax.swing.JOptionPane.getRootFrame(JOptionPane.java:1696)
+	at org.netbeans.core.windows.services.DialogDisplayerImpl.findDialogParent(DialogDisplayerImpl.java:141)
+	at org.netbeans.core.windows.services.DialogDisplayerImpl.access$000(DialogDisplayerImpl.java:54)
+[catch] at org.netbeans.core.windows.services.DialogDisplayerImpl$AWTQuery.showDialog(DialogDisplayerImpl.java:239)
+	at org.netbeans.core.windows.services.DialogDisplayerImpl$AWTQuery.run(DialogDisplayerImpl.java:188)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:136)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+WARNING [org.netbeans.core.execution.AccController]
+java.lang.reflect.InaccessibleObjectException: Unable to make field private java.security.ProtectionDomain[] java.security.AccessControlContext.context accessible: module java.base does not "opens java.security" to unnamed module @3b62957e
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:183)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:177)
+	at org.netbeans.core.execution.AccController.getContextField(AccController.java:50)
+	at org.netbeans.core.execution.AccController.getDomains(AccController.java:58)
+	at org.netbeans.core.execution.AccController.getIOPermissionCollection(AccController.java:78)
+	at org.netbeans.core.execution.AccController.getIOPermissionCollection(AccController.java:72)
+	at org.netbeans.core.execution.SecMan.checkTopLevelWindow(SecMan.java:105)
+	at org.netbeans.core.execution.SecMan.checkPermission(SecMan.java:97)
+	at org.netbeans.TopSecurityManager.checkTopLevelWindow(TopSecurityManager.java:208)
+	at org.netbeans.TopSecurityManager.checkPermission(TopSecurityManager.java:484)
+	at java.desktop/java.awt.Window.setWarningString(Window.java:1408)
+	at java.desktop/java.awt.Window.init(Window.java:508)
+	at java.desktop/java.awt.Window.<init>(Window.java:453)
+	at java.desktop/java.awt.Window.<init>(Window.java:608)
+	at java.desktop/java.awt.Dialog.<init>(Dialog.java:674)
+	at java.desktop/java.awt.Dialog.<init>(Dialog.java:418)
+	at java.desktop/javax.swing.JDialog.<init>(JDialog.java:276)
+	at org.netbeans.core.windows.services.NbPresenter.<init>(NbPresenter.java:174)
+	at org.netbeans.core.windows.services.NbDialog.<init>(NbDialog.java:42)
+[catch] at org.netbeans.core.windows.services.DialogDisplayerImpl$AWTQuery.showDialog(DialogDisplayerImpl.java:245)
+	at org.netbeans.core.windows.services.DialogDisplayerImpl$AWTQuery.run(DialogDisplayerImpl.java:188)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:136)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+WARNING [org.openide.filesystems.Ordering]: Not all children in Templates/Project/ marked with the position attribute: [POVRay], but some are: [Import, Samples]
+WARNING [org.netbeans.core.execution.AccController]
+java.lang.reflect.InaccessibleObjectException: Unable to make field private java.security.ProtectionDomain[] java.security.AccessControlContext.context accessible: module java.base does not "opens java.security" to unnamed module @3b62957e
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:183)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:177)
+	at org.netbeans.core.execution.AccController.getContextField(AccController.java:50)
+	at org.netbeans.core.execution.AccController.getDomains(AccController.java:58)
+	at org.netbeans.core.execution.AccController.getIOPermissionCollection(AccController.java:78)
+	at org.netbeans.core.execution.AccController.getIOPermissionCollection(AccController.java:72)
+	at org.netbeans.core.execution.SecMan.checkTopLevelWindow(SecMan.java:105)
+	at org.netbeans.core.execution.SecMan.checkPermission(SecMan.java:97)
+	at org.netbeans.TopSecurityManager.checkTopLevelWindow(TopSecurityManager.java:208)
+	at org.netbeans.TopSecurityManager.checkPermission(TopSecurityManager.java:484)
+	at java.desktop/java.awt.Window.setWarningString(Window.java:1408)
+	at java.desktop/java.awt.Window.init(Window.java:508)
+	at java.desktop/java.awt.Window.<init>(Window.java:453)
+	at java.desktop/java.awt.Window.<init>(Window.java:608)
+	at java.desktop/java.awt.Dialog.<init>(Dialog.java:674)
+	at java.desktop/java.awt.Dialog.<init>(Dialog.java:418)
+	at java.desktop/javax.swing.JDialog.<init>(JDialog.java:276)
+	at java.desktop/javax.swing.JFileChooser.createDialog(JFileChooser.java:817)
+[catch] at java.desktop/javax.swing.JFileChooser.showDialog(JFileChooser.java:762)
+	at java.desktop/javax.swing.JFileChooser.showOpenDialog(JFileChooser.java:668)
+	at org.netbeans.modules.project.ui.actions.OpenProject.show(OpenProject.java:105)
+	at org.netbeans.modules.project.ui.actions.OpenProject.actionPerformed(OpenProject.java:78)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:298)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:297)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3398)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:136)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+WARNING [org.netbeans.core.execution.AccController]
+java.lang.reflect.InaccessibleObjectException: Unable to make field private java.security.ProtectionDomain[] java.security.AccessControlContext.context accessible: module java.base does not "opens java.security" to unnamed module @3b62957e
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:183)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:177)
+	at org.netbeans.core.execution.AccController.getContextField(AccController.java:50)
+	at org.netbeans.core.execution.AccController.getDomains(AccController.java:58)
+	at org.netbeans.core.execution.AccController.getIOPermissionCollection(AccController.java:78)
+	at org.netbeans.core.execution.AccController.getIOPermissionCollection(AccController.java:72)
+	at org.netbeans.core.execution.SecMan.checkTopLevelWindow(SecMan.java:105)
+	at org.netbeans.core.execution.SecMan.checkPermission(SecMan.java:97)
+	at org.netbeans.TopSecurityManager.checkTopLevelWindow(TopSecurityManager.java:208)
+	at org.netbeans.TopSecurityManager.checkPermission(TopSecurityManager.java:484)
+	at java.desktop/java.awt.Window.setWarningString(Window.java:1408)
+	at java.desktop/java.awt.Window.init(Window.java:508)
+	at java.desktop/java.awt.Window.<init>(Window.java:453)
+	at java.desktop/java.awt.Window.<init>(Window.java:608)
+	at java.desktop/java.awt.Dialog.<init>(Dialog.java:674)
+	at java.desktop/java.awt.Dialog.<init>(Dialog.java:418)
+	at java.desktop/javax.swing.JDialog.<init>(JDialog.java:276)
+	at org.netbeans.core.windows.services.NbPresenter.<init>(NbPresenter.java:174)
+	at org.netbeans.core.windows.services.NbDialog.<init>(NbDialog.java:42)
+[catch] at org.netbeans.core.windows.services.DialogDisplayerImpl$AWTQuery.showDialog(DialogDisplayerImpl.java:245)
+	at org.netbeans.core.windows.services.DialogDisplayerImpl$AWTQuery.run(DialogDisplayerImpl.java:188)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:136)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+INFO [org.netbeans.ui.metrics.projects]: USG_PROJECT_OPEN
+WARNING [org.openide.filesystems.Ordering]: Relative ordering attribute 320x200.properties/160x100.properties on Povray/RendererSettings is deprecated in favor of numeric position attributes
+WARNING [org.openide.filesystems.Ordering]: Relative ordering attribute 1024x768.properties/640x480hq.properties on Povray/RendererSettings is deprecated in favor of numeric position attributes
+WARNING [org.openide.filesystems.Ordering]: Relative ordering attribute 1024x768hq.properties/1024x768.properties on Povray/RendererSettings is deprecated in favor of numeric position attributes
+WARNING [org.openide.filesystems.Ordering]: Relative ordering attribute 640x480hq.properties/640x480.properties on Povray/RendererSettings is deprecated in favor of numeric position attributes
+WARNING [org.openide.filesystems.Ordering]: Relative ordering attribute 640x480.properties/320x200.properties on Povray/RendererSettings is deprecated in favor of numeric position attributes
+WARNING [org.netbeans.core.execution.AccController]
+java.lang.reflect.InaccessibleObjectException: Unable to make field private java.security.ProtectionDomain[] java.security.AccessControlContext.context accessible: module java.base does not "opens java.security" to unnamed module @3b62957e
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:183)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:177)
+	at org.netbeans.core.execution.AccController.getContextField(AccController.java:50)
+	at org.netbeans.core.execution.AccController.getDomains(AccController.java:58)
+	at org.netbeans.core.execution.AccController.getIOPermissionCollection(AccController.java:78)
+	at org.netbeans.core.execution.AccController.getIOPermissionCollection(AccController.java:72)
+	at org.netbeans.core.execution.SecMan.checkTopLevelWindow(SecMan.java:105)
+	at org.netbeans.core.execution.SecMan.checkPermission(SecMan.java:97)
+	at org.netbeans.TopSecurityManager.checkTopLevelWindow(TopSecurityManager.java:208)
+	at org.netbeans.TopSecurityManager.checkPermission(TopSecurityManager.java:484)
+	at java.desktop/java.awt.Window.setWarningString(Window.java:1408)
+	at java.desktop/java.awt.Window.init(Window.java:508)
+	at java.desktop/java.awt.Window.<init>(Window.java:453)
+	at java.desktop/java.awt.Window.<init>(Window.java:608)
+	at java.desktop/java.awt.Dialog.<init>(Dialog.java:674)
+	at java.desktop/java.awt.Dialog.<init>(Dialog.java:418)
+	at java.desktop/javax.swing.JDialog.<init>(JDialog.java:276)
+	at org.netbeans.core.windows.services.NbPresenter.<init>(NbPresenter.java:174)
+[catch] at org.netbeans.core.windows.services.DialogDisplayerImpl$AWTQuery.showDialog(DialogDisplayerImpl.java:253)
+	at org.netbeans.core.windows.services.DialogDisplayerImpl.notify(DialogDisplayerImpl.java:296)
+	at org.netbeans.core.windows.services.DialogDisplayerImpl.notify(DialogDisplayerImpl.java:163)
+	at org.netbeans.modules.openide.text.AskEditorQuestions.askReloadDocument(AskEditorQuestions.java:38)
+	at org.openide.text.CloneableEditorSupport.checkReload(CloneableEditorSupport.java:1718)
+	at org.openide.text.CloneableEditorSupport.access$700(CloneableEditorSupport.java:102)
+	at org.openide.text.CloneableEditorSupport$Listener$1.run(CloneableEditorSupport.java:2287)
+	at org.openide.text.NbDocument.runAtomic(NbDocument.java:415)
+	at org.openide.text.CloneableEditorSupport$Listener$1.run(CloneableEditorSupport.java:2277)
+	at org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:45)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:287)
+	at org.netbeans.modules.openide.util.NbMutexEventProvider$Event.lambda$doEventRequest$1(NbMutexEventProvider.java:112)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:136)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+C:\POV-Ray\include\ExecutablePovray\pvengine32-sse2.exe +Q4 +A0.0 +W1024 +H768 +FN9 +LC:\POV-Ray\include\math.inc +IC:\Users\mathe\OneDrive\Documentos\PovSuite\projeto1\scenes\EmptyPovrayProject.pov +OC:\Users\mathe\OneDrive\Documentos\PovSuite\projeto1\images\EmptyPovrayProject.png
+INFO [org.openide.text.DataEditorSupport]: Encoding problem using UTF-8 for C:\Users\mathe\OneDrive\Documentos\PovSuite\projeto1\scenes\EmptyPovrayProject.pov@6263d0d6:7fa2b437
+INFO [null]: Last record repeated again.
+WARNING [org.netbeans.core.execution.AccController]
+java.lang.reflect.InaccessibleObjectException: Unable to make field private java.security.ProtectionDomain[] java.security.AccessControlContext.context accessible: module java.base does not "opens java.security" to unnamed module @3b62957e
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:391)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:367)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:315)
+	at java.base/java.lang.reflect.Field.checkCanSetAccessible(Field.java:183)
+	at java.base/java.lang.reflect.Field.setAccessible(Field.java:177)
+	at org.netbeans.core.execution.AccController.getContextField(AccController.java:50)
+	at org.netbeans.core.execution.AccController.getDomains(AccController.java:58)
+	at org.netbeans.core.execution.AccController.getIOPermissionCollection(AccController.java:78)
+	at org.netbeans.core.execution.AccController.getIOPermissionCollection(AccController.java:72)
+	at org.netbeans.core.execution.SecMan.checkTopLevelWindow(SecMan.java:105)
+	at org.netbeans.core.execution.SecMan.checkPermission(SecMan.java:97)
+	at org.netbeans.TopSecurityManager.checkTopLevelWindow(TopSecurityManager.java:208)
+	at org.netbeans.TopSecurityManager.checkPermission(TopSecurityManager.java:484)
+	at java.desktop/java.awt.Window.setWarningString(Window.java:1408)
+	at java.desktop/java.awt.Window.init(Window.java:508)
+	at java.desktop/java.awt.Window.<init>(Window.java:453)
+	at java.desktop/java.awt.Window.<init>(Window.java:608)
+	at java.desktop/java.awt.Dialog.<init>(Dialog.java:674)
+	at java.desktop/java.awt.Dialog.<init>(Dialog.java:418)
+	at java.desktop/javax.swing.JDialog.<init>(JDialog.java:276)
+	at org.netbeans.core.windows.services.NbPresenter.<init>(NbPresenter.java:174)
+[catch] at org.netbeans.core.windows.services.DialogDisplayerImpl$AWTQuery.showDialog(DialogDisplayerImpl.java:253)
+	at org.netbeans.core.windows.services.DialogDisplayerImpl.notify(DialogDisplayerImpl.java:296)
+	at org.netbeans.core.windows.services.DialogDisplayerImpl.notify(DialogDisplayerImpl.java:163)
+	at org.openide.text.UserQuestionExceptionHandler.handleUserQuestionException(UserQuestionExceptionHandler.java:65)
+	at org.openide.text.CloneableEditorInitializer.handleUserQuestionExceptionInEDT(CloneableEditorInitializer.java:432)
+	at org.openide.text.CloneableEditorInitializer.run(CloneableEditorInitializer.java:309)
+	at org.openide.text.CloneableEditorInitializer.processPendingEDTRequests(CloneableEditorInitializer.java:135)
+	at org.openide.text.CloneableEditorInitializer$1.run(CloneableEditorInitializer.java:84)
+	at org.netbeans.core.windows.WindowManagerImpl$Exclusive$1.run(WindowManagerImpl.java:1611)
+	at org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:45)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:287)
+	at org.netbeans.modules.openide.util.NbMutexEventProvider$Event.lambda$doEventRequest$1(NbMutexEventProvider.java:112)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:136)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+C:\POV-Ray\include\ExecutablePovray\pvengine32-sse2.exe +Q4 +A0.0 +W1024 +H768 +FN9 +LC:\POV-Ray\include\math.inc +IC:\Users\mathe\OneDrive\Documentos\PovSuite\projeto1\scenes\EmptyPovrayProject.pov +OC:\Users\mathe\OneDrive\Documentos\PovSuite\projeto1\images\EmptyPovrayProject.png
+WARNING [org.netbeans.core.windows.WindowManagerImpl]
+java.lang.IllegalStateException: Problem in some module which uses Window System: Window System API is required to be called from AWT thread only, see http://core.netbeans.org/proposals/threading/
+	at org.netbeans.core.windows.WindowManagerImpl.warnIfNotInEDT(WindowManagerImpl.java:1812)
+	at org.netbeans.core.windows.WindowManagerImpl.topComponentDisplayNameChanged(WindowManagerImpl.java:1397)
+	at org.openide.windows.TopComponent.setName(TopComponent.java:955)
+	at org.netbeans.examples.modules.povfile.RendererAction$RenderWithSettingsAction.run(RendererAction.java:137)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1420)
+	at org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:45)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:287)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2035)
+WARNING [org.netbeans.core.windows.WindowManagerImpl]
+java.lang.IllegalStateException: Problem in some module which uses Window System: Window System API is required to be called from AWT thread only, see http://core.netbeans.org/proposals/threading/
+	at org.netbeans.core.windows.WindowManagerImpl.warnIfNotInEDT(WindowManagerImpl.java:1812)
+	at org.netbeans.core.windows.WindowManagerImpl.topComponentOpenAtTabPosition(WindowManagerImpl.java:1267)
+	at org.netbeans.core.windows.WindowManagerImpl.topComponentOpen(WindowManagerImpl.java:1262)
+	at org.openide.windows.TopComponent.open(TopComponent.java:473)
+	at org.openide.windows.TopComponent.open(TopComponent.java:453)
+	at org.netbeans.examples.modules.povfile.RendererAction$RenderWithSettingsAction.run(RendererAction.java:138)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1420)
+	at org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:45)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:287)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2035)
+WARNING [null]: org.openide.windows.TopComponent should override preferredID()
+WARNING [org.netbeans.core.windows.WindowManagerImpl]
+java.lang.IllegalStateException: Problem in some module which uses Window System: Window System API is required to be called from AWT thread only, see http://core.netbeans.org/proposals/threading/
+	at org.netbeans.core.windows.WindowManagerImpl.warnIfNotInEDT(WindowManagerImpl.java:1812)
+	at org.netbeans.core.windows.WindowManagerImpl.topComponentID(WindowManagerImpl.java:1454)
+	at org.openide.windows.WindowManager.findTopComponentID(WindowManager.java:526)
+	at org.netbeans.core.windows.model.TopComponentSubModel.getID(TopComponentSubModel.java:357)
+	at org.netbeans.core.windows.model.TopComponentSubModel.containsTopComponent(TopComponentSubModel.java:253)
+	at org.netbeans.core.windows.model.DefaultModeModel.containsTopComponent(DefaultModeModel.java:415)
+	at org.netbeans.core.windows.model.DefaultModel.containsModeTopComponent(DefaultModel.java:886)
+	at org.netbeans.core.windows.Central.containsModeTopComponent(Central.java:1538)
+	at org.netbeans.core.windows.ModeImpl.containsTopComponent(ModeImpl.java:413)
+	at org.netbeans.core.windows.WindowManagerImpl.findMode(WindowManagerImpl.java:625)
+	at org.netbeans.core.windows.WindowManagerImpl.getMode(WindowManagerImpl.java:1645)
+	at org.netbeans.core.windows.WindowManagerImpl.topComponentOpenAtTabPosition(WindowManagerImpl.java:1274)
+	at org.netbeans.core.windows.WindowManagerImpl.topComponentOpen(WindowManagerImpl.java:1262)
+	at org.openide.windows.TopComponent.open(TopComponent.java:473)
+	at org.openide.windows.TopComponent.open(TopComponent.java:453)
+	at org.netbeans.examples.modules.povfile.RendererAction$RenderWithSettingsAction.run(RendererAction.java:138)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1420)
+	at org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:45)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:287)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2035)
+WARNING [null]: Last record repeated 7 more times.
+WARNING [org.netbeans.core.windows.WindowManagerImpl]
+java.lang.IllegalStateException: Problem in some module which uses Window System: Window System API is required to be called from AWT thread only, see http://core.netbeans.org/proposals/threading/
+	at org.netbeans.core.windows.WindowManagerImpl.warnIfNotInEDT(WindowManagerImpl.java:1812)
+	at org.netbeans.core.windows.WindowManagerImpl.topComponentID(WindowManagerImpl.java:1454)
+	at org.openide.windows.WindowManager.findTopComponentID(WindowManager.java:526)
+	at org.netbeans.core.windows.TopComponentTracker.add(TopComponentTracker.java:120)
+	at org.netbeans.core.windows.WindowManagerImpl.topComponentOpenAtTabPosition(WindowManagerImpl.java:1293)
+	at org.netbeans.core.windows.WindowManagerImpl.topComponentOpen(WindowManagerImpl.java:1262)
+	at org.openide.windows.TopComponent.open(TopComponent.java:473)
+	at org.openide.windows.TopComponent.open(TopComponent.java:453)
+	at org.netbeans.examples.modules.povfile.RendererAction$RenderWithSettingsAction.run(RendererAction.java:138)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1420)
+	at org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:45)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:287)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2035)
+WARNING [org.netbeans.core.windows.WindowManagerImpl]
+java.lang.IllegalStateException: Problem in some module which uses Window System: Window System API is required to be called from AWT thread only, see http://core.netbeans.org/proposals/threading/
+	at org.netbeans.core.windows.WindowManagerImpl.warnIfNotInEDT(WindowManagerImpl.java:1812)
+	at org.netbeans.core.windows.WindowManagerImpl.topComponentIsOpened(WindowManagerImpl.java:1440)
+	at org.openide.windows.TopComponent.isOpened(TopComponent.java:517)
+	at org.openide.windows.TopComponent.isOpened(TopComponent.java:508)
+	at org.netbeans.core.windows.Central.addModeOpenedTopComponent(Central.java:755)
+	at org.netbeans.core.windows.ModeImpl.addOpenedTopComponent(ModeImpl.java:336)
+	at org.netbeans.core.windows.WindowManagerImpl.topComponentOpenAtTabPosition(WindowManagerImpl.java:1305)
+	at org.netbeans.core.windows.WindowManagerImpl.topComponentOpen(WindowManagerImpl.java:1262)
+	at org.openide.windows.TopComponent.open(TopComponent.java:473)
+	at org.openide.windows.TopComponent.open(TopComponent.java:453)
+	at org.netbeans.examples.modules.povfile.RendererAction$RenderWithSettingsAction.run(RendererAction.java:138)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1420)
+	at org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:45)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:287)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2035)
+WARNING [org.netbeans.core.windows.WindowManagerImpl]
+java.lang.IllegalStateException: Problem in some module which uses Window System: Window System API is required to be called from AWT thread only, see http://core.netbeans.org/proposals/threading/
+	at org.netbeans.core.windows.WindowManagerImpl.warnIfNotInEDT(WindowManagerImpl.java:1812)
+	at org.netbeans.core.windows.WindowManagerImpl.topComponentID(WindowManagerImpl.java:1454)
+	at org.openide.windows.WindowManager.findTopComponentID(WindowManager.java:526)
+	at org.netbeans.core.windows.model.TopComponentSubModel.getID(TopComponentSubModel.java:357)
+	at org.netbeans.core.windows.model.TopComponentSubModel.containsTopComponent(TopComponentSubModel.java:253)
+	at org.netbeans.core.windows.model.DefaultModeModel.containsTopComponent(DefaultModeModel.java:415)
+	at org.netbeans.core.windows.model.DefaultModel.containsModeTopComponent(DefaultModel.java:886)
+	at org.netbeans.core.windows.Central.removeTopComponentFromOtherModes(Central.java:917)
+	at org.netbeans.core.windows.Central.addModeOpenedTopComponent(Central.java:761)
+	at org.netbeans.core.windows.ModeImpl.addOpenedTopComponent(ModeImpl.java:336)
+	at org.netbeans.core.windows.WindowManagerImpl.topComponentOpenAtTabPosition(WindowManagerImpl.java:1305)
+	at org.netbeans.core.windows.WindowManagerImpl.topComponentOpen(WindowManagerImpl.java:1262)
+	at org.openide.windows.TopComponent.open(TopComponent.java:473)
+	at org.openide.windows.TopComponent.open(TopComponent.java:453)
+	at org.netbeans.examples.modules.povfile.RendererAction$RenderWithSettingsAction.run(RendererAction.java:138)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1420)
+	at org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:45)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:287)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2035)
+WARNING [null]: Last record repeated 6 more times.
+WARNING [org.netbeans.core.windows.WindowManagerImpl]
+java.lang.IllegalStateException: Problem in some module which uses Window System: Window System API is required to be called from AWT thread only, see http://core.netbeans.org/proposals/threading/
+	at org.netbeans.core.windows.WindowManagerImpl.warnIfNotInEDT(WindowManagerImpl.java:1812)
+	at org.netbeans.core.windows.WindowManagerImpl.topComponentID(WindowManagerImpl.java:1454)
+	at org.openide.windows.WindowManager.findTopComponentID(WindowManager.java:526)
+	at org.netbeans.core.windows.model.TopComponentSubModel.getID(TopComponentSubModel.java:357)
+	at org.netbeans.core.windows.model.TopComponentSubModel.addOpenedTopComponent(TopComponentSubModel.java:88)
+	at org.netbeans.core.windows.model.DefaultModeModel.addOpenedTopComponent(DefaultModeModel.java:136)
+	at org.netbeans.core.windows.model.DefaultModel.addModeOpenedTopComponent(DefaultModel.java:672)
+	at org.netbeans.core.windows.Central.addModeOpenedTopComponent(Central.java:763)
+	at org.netbeans.core.windows.ModeImpl.addOpenedTopComponent(ModeImpl.java:336)
+	at org.netbeans.core.windows.WindowManagerImpl.topComponentOpenAtTabPosition(WindowManagerImpl.java:1305)
+	at org.netbeans.core.windows.WindowManagerImpl.topComponentOpen(WindowManagerImpl.java:1262)
+	at org.openide.windows.TopComponent.open(TopComponent.java:473)
+	at org.openide.windows.TopComponent.open(TopComponent.java:453)
+	at org.netbeans.examples.modules.povfile.RendererAction$RenderWithSettingsAction.run(RendererAction.java:138)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1420)
+	at org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:45)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:287)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2035)
+WARNING [org.netbeans.core.windows.WindowManagerImpl]
+java.lang.IllegalStateException: Problem in some module which uses Window System: Window System API is required to be called from AWT thread only, see http://core.netbeans.org/proposals/threading/
+	at org.netbeans.core.windows.WindowManagerImpl.warnIfNotInEDT(WindowManagerImpl.java:1812)
+	at org.netbeans.core.windows.WindowManagerImpl.topComponentRequestActive(WindowManagerImpl.java:1374)
+	at org.openide.windows.TopComponent.requestActive(TopComponent.java:837)
+	at org.netbeans.examples.modules.povfile.RendererAction$RenderWithSettingsAction.run(RendererAction.java:139)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1420)
+	at org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:45)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:287)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2035)
+WARNING [org.netbeans.core.windows.WindowManagerImpl]
+java.lang.IllegalStateException: Problem in some module which uses Window System: Window System API is required to be called from AWT thread only, see http://core.netbeans.org/proposals/threading/
+	at org.netbeans.core.windows.WindowManagerImpl.warnIfNotInEDT(WindowManagerImpl.java:1812)
+	at org.netbeans.core.windows.WindowManagerImpl.topComponentID(WindowManagerImpl.java:1454)
+	at org.openide.windows.WindowManager.findTopComponentID(WindowManager.java:526)
+	at org.netbeans.core.windows.model.TopComponentSubModel.getID(TopComponentSubModel.java:357)
+	at org.netbeans.core.windows.model.TopComponentSubModel.setSelectedTopComponent(TopComponentSubModel.java:299)
+	at org.netbeans.core.windows.model.DefaultModeModel.setSelectedTopComponent(DefaultModeModel.java:308)
+	at org.netbeans.core.windows.model.DefaultModel.setModeSelectedTopComponent(DefaultModel.java:654)
+	at org.netbeans.core.windows.Central.activateModeTopComponent(Central.java:1769)
+	at org.netbeans.core.windows.WindowManagerImpl.topComponentRequestActive(WindowManagerImpl.java:1378)
+	at org.openide.windows.TopComponent.requestActive(TopComponent.java:837)
+	at org.netbeans.examples.modules.povfile.RendererAction$RenderWithSettingsAction.run(RendererAction.java:139)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1420)
+	at org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:45)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:287)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2035)
+INFO [org.netbeans.ui.metrics.editor]: USG_EDITOR_MIME_TYPE
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.apache.felix.framework@7.0.3 256

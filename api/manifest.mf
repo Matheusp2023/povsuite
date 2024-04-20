@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+AutoUpdate-Show-In-Client: true
+OpenIDE-Module: org.netbeans.examples.api.povray/1
+OpenIDE-Module-Localizing-Bundle: org/netbeans/examples/api/povray/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

@@ -1,0 +1,11 @@
+C:\Program Files\NetBeans-21\netbeans\platform=1708007142000
+cluster.C:/Users/mathe/povsuite/build/cluster=1713543932716
+cluster.C:/Program Files/NetBeans-21/netbeans/ide=1708007296000
+cluster.C:/Program Files/NetBeans-21/netbeans/platform=1708007142000
+user=1713543932716
+crc=7
+locale=pt_BR
+branding=povsuite
+java.version=21.0.2
+java.vm.version=21.0.2+13-LTS-58
+netbeans.home=C:\Program Files\NetBeans-21\netbeans\platform
