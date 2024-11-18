@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><module codename="org.netbeans.examples.api.povray/1">
-    <module_version install_time="1713543932050" last="true" origin="installer" specification_version="1.0">
-        <file crc="3302808406" name="config/Modules/org-netbeans-examples-api-povray.xml"/>
-        <file crc="3855362079" name="modules/org-netbeans-examples-api-povray.jar"/>
-    </module_version>
-</module>
