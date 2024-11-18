@@ -42,6 +42,66 @@ O **3D Pov-Ray Suite** é um aplicativo desenvolvido como módulo da plataforma 
 
 ---
 
+Aqui está o texto formatado para você incluir no seu arquivo `README.md` usando Markdown:
+
+---
+
+## Apêndice: Configurando o POV-Ray
+
+### MacOS
+Usuários de Mac podem achar o **DarwinPorts** a maneira mais fácil de instalar o POV-Ray. Basta seguir os passos abaixo:
+1. Instale o **DarwinPorts**.
+2. Execute o comando:  
+   ```bash
+   sudo port install povray
+   ```
+
+---
+
+### Linux e Outros Sistemas Unix
+Usuários de Linux e outros Unix podem baixar o POV-Ray diretamente do site oficial ([povray.org](http://povray.org)) e seguir as instruções de instalação.  
+- O software deve funcionar imediatamente, sem ajustes ou configurações adicionais.  
+- **Nota importante**: Certifique-se de que o inicializador do POV-Ray tenha as permissões corretas para ser executado. Você pode verificar isso rodando o POV-Ray na linha de comando.
+
+---
+
+### Windows
+Configurar o POV-Ray no Windows exige um pouco mais de atenção. Siga as etapas abaixo para garantir uma instalação correta:
+
+1. **Baixe o POV-Ray**  
+   Obtenha a versão estável mais recente para Windows em: [http://povray.org/download](http://povray.org/download)
+
+2. **Instale o POV-Ray**  
+   - Execute o instalador e escolha um diretório de instalação como `C:\POVRay`.  
+     **Atenção**: Evite diretórios com espaços no caminho, como `C:\Arquivos de Programas`.
+   - Exemplo de diretório sugerido:  
+     ```plaintext
+     C:\POVRay
+     ```
+
+3. **Configure o Aplicativo**  
+   Após instalar, abra o aplicativo POV-Ray e configure as opções abaixo:  
+   - **Desabilite Restrições de E/S**:  
+     Vá para:  
+     `Opções` → `Restrições de E/S de script` → **Sem restrições**.
+     
+     ![image](https://github.com/user-attachments/assets/c43b6b44-64e8-46b0-a0e8-d218c4ee169f)
+
+   - **Configure para sair ao finalizar a renderização**:  
+     Vá para:  
+     `Renderizar` → `Ao concluir` → **Sair do POV-Ray para Windows**.
+     
+     ![image](https://github.com/user-attachments/assets/5e9cabc2-890f-4808-a9e4-11a2e4a2d52e)
+
+
+4. **Evite Caminhos com Espaços**  
+   - Certifique-se de que os projetos criados estejam em diretórios sem espaços no caminho (ex.: `C:\Projetos\POVRay`).  
+   - O nome dos projetos também não deve conter espaços.
+
+---
+
+Se precisar de mais informações, consulte a [documentação oficial do POV-Ray](http://povray.org).
+
 ## Autores
 
 - **Caio Oliveira França dos Anjos**
